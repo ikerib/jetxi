@@ -1,20 +1,20 @@
 {
   "name": "jetxi",
-  "private": true,
   "description": "Youtube-ko bideoak jeisteko script-a",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "author": "Iker Ibarguren (https://ikerib.github.io)",
   "repository": {
     "type": "git",
     "url": "https://github.com/ikerib/jetxi.git"
   },
   "engines":{
-    "node": ">= 0.4.0"
+    "node": ">= 0.10.0"
   },
   "dependencies": {
-    "youtube-dl":"1.8.0"
+    "youtube-dl":"1.8.0",
+    "path":"0.11.14"
   },
   "bin": {
-    "jetxi":"bin/jetxi.js"
+    "jetxi":"jetxi.js"
   }
 }

@@ -1,33 +1,19 @@
 {
-  "name": "jetxi",
+  "name": "jetxi.js",
   "description": "Youtube-ko bideoak jeisteko script-a",
-  "keywords": [
-    "youtube",
-    "video",
-    "jetxi"
-  ],
-  "version": "1.8.0",
+  "version": "1.0.0",
+  "author": "Iker Ibarguren (https://ikerib.github.io)",
   "repository": {
     "type": "git",
     "url": "https://github.com/ikerib/jetxi.git"
-  },
-  "author": "Iker Ibarguren (https://ikerib.github.io)",
-  "main": "./lib/youtube-dl.js",
-  "bin": "./bin/jetxi",
-  "directories": {
-    "lib": "./lib"
-  },
-  "scripts": {
-    "preinstall": "node ./scripts/download.js"
+  }
+  "engines":{
+    "node": ">= 0.4.0"
   },
   "dependencies": {
-    "streamify": "~0.2.3",
-    "request": "~2.37.0"
+    "youtube-dl":"1.8.0"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://github.com/ikerib/jetxi/raw/master/LICENSE"
-    }
-  ]
+  "bin": {
+    "jetxi":"bin/jetxi.js"
+  }
 }

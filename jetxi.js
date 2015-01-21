@@ -1,6 +1,6 @@
 var path = require('path');
 var fs   = require('fs');
-var ytdl = require('./lib/youtube-dl.js');
+var ytdl = require('youtube-dl');
 
 // Ezarri hemen non nahi duzun bideoak gordetzea
 var dest = "/Users/ikerib/Downloads/JETXI";
